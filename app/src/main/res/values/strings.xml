@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Shymko_HW_Lesson16_180121_ViewPager</string>
     <string name="testText">Some test text</string>
+    <string name="countryNameUkraine">Ukraine</string>
+    <string name="countryNameGreece">Greece</string>
+    <string name="countryNameEgypt">Egypt</string>
+    <string name="countryNameTurkey">Turkey</string>
 </resources>
