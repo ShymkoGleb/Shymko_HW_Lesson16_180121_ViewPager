@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvCountryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="tvCountryName"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvCountryPopulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:hint="tvCountryPopulation"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvCountryName" />
+
+    <TextView
+        android:id="@+id/tvCountryArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:hint="tvCountryArea"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvCountryPopulation" />
+
+    <TextView
+        android:id="@+id/tvCountryPopulationDencity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:hint="tvCountryDencity"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvCountryArea" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

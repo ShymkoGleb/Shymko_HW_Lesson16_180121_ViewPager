@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnButtonCountry1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:text="Country1" />
+
+        <Button
+            android:id="@+id/btnButtonCountry2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country2"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:id="@+id/btnButtonCountry3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country3"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"/>
+        <Button
+            android:id="@+id/btnButtonCountry4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country4"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/btnButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Btn1"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"/>
+    <Button
+        android:id="@+id/btnButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Btn2"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"/>
+
+    <Button
+        android:id="@+id/btnButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Btn3"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"/>
+
+    <Button
+        android:id="@+id/btnButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Btn4"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"/>
+    </LinearLayout>
+
+   <androidx.viewpager2.widget.ViewPager2
+       android:id="@+id/vpViewPager"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
