@@ -23,7 +23,7 @@ class ViewPagerAdapter(
     override fun onBindViewHolder(holder: ViewPagerViewHolder, position: Int) {
         holder.itemView.apply {
             tvCountryName.text = "Contry name is: ${countryList[position].name}"
-            tvCountryPopulation.text ="Country population is: " + countryList[position].population.toString() + " persons"
+            tvCountryPopulation.text ="Country population is: " + countryList[position].population.toString() + " persons."
             tvCountryArea.text = "Country area is: " + countryList[position].area.toString() +" sq.km"
             tvCountryPopulationDencity.text = "Country population dencity is: " + (countryList[position].population/countryList[position].area).toString() + " persons/sq.km"
         }
