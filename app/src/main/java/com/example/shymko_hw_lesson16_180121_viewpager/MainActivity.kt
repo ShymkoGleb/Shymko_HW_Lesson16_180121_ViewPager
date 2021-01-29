@@ -34,10 +34,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun addCountries(flag: Boolean) {
         if (!flag) {
-            Country.listOfCountries.add(Country("Ukraine", 40000000, 55555, 555, "adasdds"))
-            Country.listOfCountries.add(Country("Egypt", 80000000, 22222, 3333, "sadadsad"))
-            Country.listOfCountries.add(Country("Kair", 30000000, 22222, 3333, "sadadsad"))
-            Country.listOfCountries.add(Country("Laos", 40000000, 22222, 3333, "sadadsad"))
+            Country.listOfCountries.add(Country("Egypt", 100_075_480, 1_010_408))
+            Country.listOfCountries.add(Country("Laos", 7_123_205, 237_955))
+            Country.listOfCountries.add(Country("Turkey", 83_154_997, 783_356))
             isCountryAdded = true
         }
     }
